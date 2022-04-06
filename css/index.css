@@ -1,35 +1,8 @@
-:root {
-	--theme-color: #4b2e83;
-}
 body {
+	background-color: #FBF6FF;
 	height: 100%;
 	margin: 0;
 	padding: 15px;
-}
-button {
-	background-color: var(--theme-color);
-	border: 1px solid rgba(255,255,255,.2);
-	border-radius: 70px;
-	bottom: 15px;
-	color: white;
-	font-size: 24px;
-	left: 15px;
-	padding: 20px 30px;
-	position: fixed;
-	transition: all .25s;
-	width: calc(100% - 30px);
-}
-button:hover {
-	opacity: .8;
-}
-button:active {
-	opacity: .6;
-}
-html {
-	height: 100%;
-}
-.btn-bar {
-	text-align: center;
 }
 .card {
 	background-color: rgba(0,0,0,.2);
@@ -46,10 +19,6 @@ html {
 	background-size: cover;
 	border: 10px solid rgba(0,0,0,.2);
 	height: 300px;
-}
-.flash {
-	animation: .25s flash infinite;
-	font-size: 18px;
 }
 .flash-bg {
 	animation: .25s flash-bg infinite;

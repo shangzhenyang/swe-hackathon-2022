@@ -1,0 +1,27 @@
+table {
+	margin: 0 auto;
+}
+.raffle-card {
+	--size: 100px;
+	background-color: white;
+	border: 1px solid rgba(0,0,0,.5);
+	border-radius: 5px;
+	height: var(--size);
+	line-height: var(--size);
+	margin: 5px;
+	text-align: center;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	transition: transform 1s;
+	width: var(--size);
+}
+.raffle-card.highlight {
+	border-color: green;
+	box-shadow: 0 0 10px green;
+}
+.raffle-card.selected {
+	margin-top: calc(-1 * var(--size) / 2);
+	position: absolute;
+	transform: scale(2);
+	z-index: 1;
+}

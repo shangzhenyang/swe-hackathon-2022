@@ -1,0 +1,44 @@
+:root {
+	--theme-color: #4b2e83;
+}
+html {
+	height: 100%;
+}
+.btn-bar {
+	text-align: center;
+}
+.btn-main {
+	background-color: var(--theme-color);
+	border: 1px solid rgba(255,255,255,.2);
+	border-radius: 70px;
+	bottom: 15px;
+	color: white;
+	font-size: 24px;
+	left: 15px;
+	padding: 20px 30px;
+	position: fixed;
+	transition: all .25s;
+	width: calc(100% - 30px);
+}
+.btn-main:hover {
+	opacity: .8;
+}
+.btn-main:active {
+	opacity: .6;
+}
+.btn-main:disabled {
+	cursor: not-allowed;
+	opacity: .4;
+}
+.flash {
+	animation: .25s flash infinite;
+	font-size: 18px;
+}
+@keyframes flash {
+	0% {
+		color: red;
+	}
+	100% {
+		color: darkgoldenrod;
+	}
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+    outline:none
+}
+body{
+    color:rgba(0,0,0,.8);
+    font-family:sans-serif;
+    margin:0;overflow:overlay;
+    -webkit-user-select:none;
+    user-select:none
+}
+.bg-img{
+    background-attachment:fixed;
+    background-size:cover;
+    height:100%;
+    position:fixed;
+    width:100%;
+    z-index:-1
+}
+.hidden{
+    display:none
+}
+.logo{
+    background-image:url(../img/logo.png);
+    background-repeat:no-repeat;
+    background-size:contain;cursor:pointer
+}

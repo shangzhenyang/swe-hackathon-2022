@@ -21,7 +21,8 @@ body{
     display:none
 }
 .logo{
-    background-image:url(../img/logo.png);
-    background-repeat:no-repeat;
-    background-size:contain;cursor:pointer
+    background-image:url("../img/DawGo.png");
+    background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
 }

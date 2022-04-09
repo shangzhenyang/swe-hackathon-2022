@@ -7,17 +7,21 @@ h2 {
 	text-transform: uppercase;
 	width: fit-content;
 }
+
 main {
 	padding: 15px;
 }
+
 ul {
 	overflow-x: auto;
 	padding-inline-start: 0;
 	white-space: nowrap;
 }
+
 [v-cloak] {
 	display: none;
 }
+
 .badge {
 	border-radius: 10px;
 	cursor: pointer;
@@ -26,13 +30,16 @@ ul {
 	overflow: hidden;
 	padding: 10px 15px;
 }
+
 .badge:last-of-type {
 	margin-right: 0;
 }
+
 .badge img {
 	border-radius: 50%;
 	height: 100px;
 }
+
 .locked {
 	filter: grayscale(1);
 }

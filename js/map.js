@@ -42,9 +42,5 @@ if (navigator.geolocation) {
 		infoWindow.open(map)
 		map.setCenter(pos)
 		map.setZoom(16)
-	}, () => {
-		handleLocationError(true, infoWindow, map.getCenter())
 	})
-} else {
-	handleLocationError(false, infoWindow, map.getCenter())
 }

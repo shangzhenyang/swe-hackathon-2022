@@ -1,6 +1,7 @@
 :root {
 	--theme-color: #4b2e83;
 }
+
 body,
 html {
 	height: 100%;
@@ -8,19 +9,23 @@ html {
 	padding: 0;
 	font-family: 'Comic Sans MS', sans-serif;
 }
+
 header {
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	font-size: 24px;
 	padding: 10px 15px;
 }
+
 header h1 {
 	font-size: inherit;
 	font-weight: normal;
 	margin: 0;
 }
+
 .btn-bar {
 	text-align: center;
 }
+
 .btn-float {
 	--size: 75px;
 	background-color: var(--theme-color);
@@ -35,6 +40,7 @@ header h1 {
 	transition: all .25s;
 	width: var(--size);
 }
+
 .btn-main {
 	background-color: var(--theme-color);
 	border: 1px solid rgba(255,255,255,.2);
@@ -48,25 +54,31 @@ header h1 {
 	transition: all .25s;
 	width: calc(100% - 30px);
 }
+
 .btn-main:hover {
 	opacity: .8;
 }
+
 .btn-main:active {
 	opacity: .6;
 }
+
 .btn-main:disabled {
 	cursor: not-allowed;
 	opacity: .4;
 }
+
 .flash {
 	animation: .25s flash infinite;
 	font-size: 18px;
 }
+
 .icon-back {
 	float: left;
 	margin-right: 10px;
 	margin-top: 5px;
 }
+
 @keyframes flash {
 	0% {
 		color: red;

@@ -1,39 +1,10 @@
 * {
 	box-sizing: border-box;
 }
+
 #map {
-	height: calc(100% - 127px);
-}
-
-nav {
-	background-color: var(--theme-color);
-	width: 100%;
-}
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	overflow: hidden;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-
-nav li {
-	margin: 0 20px;
-}
-
-nav li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding-left: 14px;
-	padding-right: 14px;
-	text-decoration: none;
-}
-
-nav li img {
-	display: block;
-	margin: 0 auto;
+	margin-top: 75px;
+	height: calc(100% - 145px);
 }
 
 .btn-check-out {
@@ -45,3 +16,4 @@ nav li img {
 	padding: 5px 10px;
 	position: fixed;
 }
+

@@ -42,6 +42,13 @@ function highlightCard(index, target) {
 	}, 75)
 }
 createTable(3, 4)
+document.getElementById("btn-back").onclick = function () {
+	if (history.length <= 1) {
+		location.href = "map.html"
+	} else {
+		history.go(-1)
+	}
+}
 document.getElementById("btn-start").onclick = function () {
 	if (selected) {
 		selected.classList.remove("selected", "flash")

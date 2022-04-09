@@ -17,7 +17,7 @@
 				<h2>{{key}}</h2>
 				<ul>
 					<li class="badge" v-for="item in value">
-						<img v-bind:class="{locked: item.locked}" :src="item.url">
+						<img v-bind:class="{locked: item.locked}" :src="item.url" @click="clicked()">
 					</li>
 				</ul>
 			</section>

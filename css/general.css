@@ -6,7 +6,7 @@ html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Comic Sans MS', sans-serif;
 }
 header {
 	border-bottom: 1px solid rgba(0,0,0,.2);
@@ -20,6 +20,20 @@ header h1 {
 }
 .btn-bar {
 	text-align: center;
+}
+.btn-float {
+	--size: 75px;
+	background-color: var(--theme-color);
+	border: 1px solid rgba(255,255,255,.2);
+	border-radius: 50%;
+	bottom: 15px;
+	color: white;
+	font-size: 24px;
+	height: var(--size);
+	position: fixed;
+	right: 15px;
+	transition: all .25s;
+	width: var(--size);
 }
 .btn-main {
 	background-color: var(--theme-color);

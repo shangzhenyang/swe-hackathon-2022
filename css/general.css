@@ -7,6 +7,7 @@ html {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
+	background-color: #FBF6FF;
 }
 header {
 	border-bottom: 1px solid rgba(0,0,0,.2);
@@ -53,6 +54,70 @@ header h1 {
 	margin-right: 10px;
 	margin-top: 5px;
 }
+
+/* Header */
+#head {
+	background-color: #4b2e83;
+	padding: 0;
+	border: 0;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.heading {
+	width: fit-content;
+    margin: 0 auto;
+	color: white;
+}
+
+.heading img{
+	display: inline;
+	height: 75px;
+	padding: 5px 0;
+}
+
+#head h1 {
+	font-family: 'JelleeBold';
+	font-size: xx-large;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Navigation bar bottom */
+nav {
+	position: fixed;
+	bottom: 0;
+	background-color: #4b2e83;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding-left: 14px;
+	padding-right: 14px;
+	text-decoration: none;
+}
+
+nav li img {
+	display: block;
+	margin: 0 auto;
+}
+
 @keyframes flash {
 	0% {
 		color: red;

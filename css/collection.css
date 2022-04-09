@@ -32,3 +32,6 @@ ul {
 	border-radius: 50%;
 	height: 100px;
 }
+.locked {
+	filter: grayscale(1);
+}

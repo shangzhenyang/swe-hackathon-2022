@@ -2,14 +2,21 @@ const collection = Vue.createApp({
 	data() {
 		return {
 			badges: {
-				Drink: ["DawGo%20Stickers/drink1.png",
-				 			"DawGo%20Stickers/drink2.png",
-							"DawGo%20Stickers/drink3.png",
-				   			"DawGo%20Stickers/drink4.png",
-							"DawGo%20Stickers/drink5.png",
-							"DawGo%20Stickers/drink6.png"
-						],
-				Food: ["Ramen", "Sushi", "Hamburger", "Steak"]
+				Drink: [{
+					locked: true,
+					url: "DawGo%20Stickers/drink1.png"
+				}, {
+					url: "DawGo%20Stickers/drink2.png"
+				}, {
+					url: "DawGo%20Stickers/drink3.png"
+				}, {
+					url: "DawGo%20Stickers/drink4.png"
+				}, {
+					url: "DawGo%20Stickers/drink5.png"
+				}, {
+					url: "DawGo%20Stickers/drink6.png"
+				}],
+				Food: []
 			}
 		}
 	}

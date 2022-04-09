@@ -16,7 +16,9 @@
 			<section v-for="(value, key) in badges">
 				<h2>{{key}}</h2>
 				<ul>
-					<li class="badge" v-for="url in value"><img :src="url"></li>
+					<li class="badge" v-for="item in value">
+						<img v-bind:class="{locked: item.locked}" :src="item.url">
+					</li>
 				</ul>
 			</section>
 		</main>

@@ -1,8 +1,21 @@
 :root {
 	--theme-color: #4b2e83;
 }
+body,
 html {
 	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+header {
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	font-size: 24px;
+	padding: 10px 15px;
+}
+header h1 {
+	font-size: inherit;
+	font-weight: normal;
+	margin: 0;
 }
 .btn-bar {
 	text-align: center;
@@ -33,6 +46,11 @@ html {
 .flash {
 	animation: .25s flash infinite;
 	font-size: 18px;
+}
+.icon-back {
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
 }
 @keyframes flash {
 	0% {

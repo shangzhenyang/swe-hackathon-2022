@@ -1,17 +1,6 @@
 * {
 	box-sizing: border-box;
 }
-body,
-html {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-header {
-	border-bottom: 1px solid rgba(0,0,0,.2);
-	font-size: 24px;
-	padding: 10px 15px;
-}
 #map {
 	height: calc(100% - 127px);
 }
@@ -32,7 +21,7 @@ nav ul {
 nav li {
 	margin: 0 20px;
 }
-  
+
 nav li a {
 	display: block;
 	color: white;

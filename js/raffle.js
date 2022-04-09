@@ -1,5 +1,23 @@
 const raffleCards = []
-const raffleResults = ["谢谢惠顾", "屠龙宝刀"]
+const raffleResults = [
+	null,
+	"DawGo%20Stickers/drink9.png",
+	"DawGo%20Stickers/drink7.png",
+	"DawGo%20Stickers/drink6.png",
+	"DawGo%20Stickers/drink5.png",
+	"DawGo%20Stickers/drink4.png",
+	"DawGo%20Stickers/drink3.png",
+	"DawGo%20Stickers/drink2.png",
+	"DawGo%20Stickers/drink1.png",
+	"DawGo%20Stickers/food7.png",
+	"DawGo%20Stickers/food6.png",
+	"DawGo%20Stickers/food3.png",
+	"DawGo%20Stickers/food2.png",
+	"DawGo%20Stickers/food1.png",
+	"DawGo%20Stickers/shoes9.png",
+	"DawGo%20Stickers/shoes2.png",
+	"DawGo%20Stickers/shoes1.png"
+]
 let selected
 function createTable(col, row) {
 	const table = document.getElementsByTagName("table")[0]
@@ -30,7 +48,13 @@ function highlightCard(index, target) {
 		if (index === target) {
 			card.classList.add("selected")
 			const resultIndex = getRandomInt(0, raffleResults.length)
-			card.innerText = raffleResults[resultIndex]
+			if (resultIndex === 0) {
+				card.innerText = "Good Luck!"
+			} else {
+				const newImg = new Image()
+				newImg.src = raffleResults[resultIndex]
+				card.appendChild(newImg)
+			}
 			selected = card
 			document.getElementById("btn-start").innerText = "Restart"
 			if (resultIndex === 1) {
@@ -59,5 +83,5 @@ document.getElementById("btn-start").onclick = function () {
 	this.disabled = true
 	setTimeout(() => {
 		this.disabled = false
-	}, 5000)
+	}, 1000)
 }

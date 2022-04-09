@@ -30,6 +30,17 @@ header h1 {
 	margin: 0;
 }
 
+.btn-back {
+	--size: 28px;
+	border: 1px solid rgba(0,0,0,.5);
+	border-radius: 50%;
+	float: left;
+	font-size: 16px;
+	height: var(--size);
+	margin: 5px 10px;
+	width: var(--size);
+}
+
 .btn-bar {
 	text-align: center;
 }
@@ -79,12 +90,6 @@ header h1 {
 .flash {
 	animation: .25s flash infinite;
 	font-size: 18px;
-}
-
-.icon-back {
-	float: left;
-	margin-right: 10px;
-	margin-top: 5px;
 }
 
 .heading {

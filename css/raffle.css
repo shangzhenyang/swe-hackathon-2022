@@ -1,6 +1,7 @@
 table {
 	margin: 0 auto;
 }
+
 .raffle-card {
 	--size: 100px;
 	background-color: white;
@@ -15,13 +16,21 @@ table {
 	transition: transform 1s;
 	width: var(--size);
 }
+
 .raffle-card.highlight {
 	border-color: green;
 	box-shadow: 0 0 10px green;
 }
+
 .raffle-card.selected {
 	margin-top: calc(-1 * var(--size) / 2);
 	position: absolute;
 	transform: scale(2);
 	z-index: 1;
+}
+
+.raffle-card img {
+	border-radius: 50%;
+	height: 80%;
+	margin-top: -5px;
 }

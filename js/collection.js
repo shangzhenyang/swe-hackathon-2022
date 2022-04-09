@@ -5,23 +5,23 @@ const collection = Vue.createApp({
 				Drinks: [{
 					url: "DawGo%20Stickers/drink9.png"
 				}, {
-					
+
 					url: "DawGo%20Stickers/drink7.png"
 				}, {
 					locked: true,
 					url: "DawGo%20Stickers/drink6.png"
 				}, {
-					
+
 					url: "DawGo%20Stickers/drink5.png"
 				}, {
 					url: "DawGo%20Stickers/drink4.png"
-				},{
+				}, {
 					locked: true,
 					url: "DawGo%20Stickers/drink3.png"
-				},{
+				}, {
 					locked: true,
 					url: "DawGo%20Stickers/drink2.png"
-				},{
+				}, {
 					locked: true,
 					url: "DawGo%20Stickers/drink1.png"
 				}],
@@ -32,7 +32,7 @@ const collection = Vue.createApp({
 				}, {
 					url: "DawGo%20Stickers/food3.png"
 				}, {
-					
+
 					url: "DawGo%20Stickers/food2.png"
 				}, {
 					locked: true,
@@ -67,6 +67,11 @@ const collection = Vue.createApp({
 					url: "DawGo%20Stickers/souvenir1.png"
 				}]
 			}
+		}
+	},
+	methods: {
+		clicked() {
+			location.href = "raffle.html"
 		}
 	}
 }).mount("main")

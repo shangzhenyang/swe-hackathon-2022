@@ -16,7 +16,7 @@
 			<section v-for="(value, key) in badges">
 				<h2>{{key}}</h2>
 				<ul>
-					<li class="badge" v-for="name in value">{{name}}</li>
+					<li class="badge" v-for="url in value"><img :src="url"></li>
 				</ul>
 			</section>
 		</main>

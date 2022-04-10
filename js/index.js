@@ -12,3 +12,6 @@ document.getElementById("btn-next").onclick = () => {
 		pages[currentPage].classList.add("slide-in-from-right")
 	}
 }
+if (innerWidth > innerHeight) {
+	location.href = "map.html"
+}

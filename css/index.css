@@ -53,6 +53,20 @@ section {
 	animation: zoom-in .5s forwards;
 }
 
+.right ul {
+	font-size: large;
+}
+
+.right ul li {
+	margin-bottom: 2rem;
+}
+
+.intro-img {
+	display: block;
+	width: 75%;
+	margin: 3rem auto;
+}
+
 @keyframes flash {
 	0% {
 		color: red;

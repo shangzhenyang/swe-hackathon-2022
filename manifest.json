@@ -1,0 +1,13 @@
+{
+	"name": "DawGo",
+	"icons": [
+		{
+			"src": "img/apple-touch-icon.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "./",
+	"display": "standalone",
+	"theme_color": "#4b2e83"
+}

@@ -4,7 +4,7 @@ document.getElementById("btn-next").onclick = () => {
 	if (currentPage === 1) {
 		document.body.classList.add("zoom-in")
 		setTimeout(() => {
-			location.href = "map.html"
+			location.href = "login.html"
 		}, 500)
 	} else {
 		pages[currentPage].classList.add("slide-out-to-left")

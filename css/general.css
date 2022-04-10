@@ -9,6 +9,8 @@ html {
 	padding: 0;
 	background-color: #FBF6FF;
 	font-family: 'Comic Sans MS', sans-serif;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 header {
@@ -38,6 +40,7 @@ header h1 {
 	font-size: 16px;
 	height: var(--size);
 	margin: 5px 10px;
+	text-align: center;
 	width: var(--size);
 }
 
@@ -56,6 +59,7 @@ header h1 {
 	height: var(--size);
 	position: fixed;
 	right: 15px;
+	text-align: center;
 	transition: all .25s;
 	width: var(--size);
 }

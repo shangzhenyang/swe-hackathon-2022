@@ -20,11 +20,6 @@ a:hover {
     position: relative;
   }
   
-  ul {
-    list-style-type: none;
-    text-transform: uppercase;
-  }
-  
   li {
     display: inline-block;
   }
@@ -83,24 +78,6 @@ a:hover {
     text-align: center;
     top: 0;
     width: inherit;
-  }
-  
-  .header:before {
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    border-radius: 100%;
-    content: "";
-    height: 140px;
-    left: 0;
-    margin: 67px auto;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 140px;
-    z-index: 2;
-    -webkit-transform: scale(1.24, 1.24);
-    -moz-transform: scale(1.24, 1.24);
-    transform: scale(1.24, 1.24);
   }
   
   .header img {

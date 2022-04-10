@@ -2,6 +2,10 @@ table {
 	margin: 0 auto;
 }
 
+.btn-main {
+	bottom: 100px;
+}
+
 .raffle-card {
 	--size: 100px;
 	background-color: white;

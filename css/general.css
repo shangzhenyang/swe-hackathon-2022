@@ -106,6 +106,7 @@ header h1 {
 
 /* Navigation bar bottom */
 nav {
+	padding-bottom: env(safe-area-inset-bottom);
 	position: fixed;
 	bottom: 0;
 	background-color: #4b2e83;

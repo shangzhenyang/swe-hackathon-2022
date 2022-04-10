@@ -129,7 +129,7 @@ li {
 }
 
 .footer {
-	background:#4b2e83;
+	background: var(--theme-color);
 	bottom: 0;
 	color: #FFF;
 	left: 0;

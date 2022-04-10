@@ -2,9 +2,13 @@
 	box-sizing: border-box;
 }
 
+body {
+	overflow: hidden;
+}
+
 #map {
 	margin-top: 75px;
-	height: calc(100% - 145px);
+	height: calc(100% - 70px);
 }
 
 .btn-check-out {

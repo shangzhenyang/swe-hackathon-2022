@@ -16,9 +16,8 @@ li {
 	position: relative;
 }
 
-ul {
-	list-style-type: none;
-	text-transform: uppercase;
+body {
+  height: calc(100% - 100px);
 }
 
 li {

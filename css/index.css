@@ -33,12 +33,8 @@ section {
 	height: 300px;
 }
 
-.flash-bg {
-	animation: .25s flash-bg infinite;
-}
-
-.flash img {
-	width: 100%;
+.description {
+	margin-top: 8rem;
 }
 
 .right {
